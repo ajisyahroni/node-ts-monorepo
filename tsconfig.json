@@ -11,6 +11,7 @@
             "addition": [ "packages/addition/src" ],
             "subtraction": [ "packages/subtraction/src" ], 
             "multiply": [ "packages/multiply/src" ], 
+            "sum": [ "packages/sum/src" ], 
         }
     },
     "include": [
