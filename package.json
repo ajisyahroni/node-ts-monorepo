@@ -1,0 +1,21 @@
+{
+  "name": "monorepo-compute",
+  "version": "1.0.0",
+  "description": "",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc --build packages/addition packages/subtraction packages/multiply apps/calculator apps/circle-area",
+    "start:calculator": "node apps/calculator/dist/apps/calculator/src/index.js",
+    "start:circle-area": "node apps/circle-area/dist/apps/circle-area/src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.5.4"
+  }
+}

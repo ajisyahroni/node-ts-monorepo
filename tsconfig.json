@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "module": "commonjs",
+        "strict": true,
+        "esModuleInterop": true,
+        "skipLibCheck": true,
+        "forceConsistentCasingInFileNames": true,
+        "baseUrl": ".",
+        "paths": {
+            "addition": [ "packages/addition/src" ],
+            "subtraction": [ "packages/subtraction/src" ], 
+            "multiply": [ "packages/multiply/src" ], 
+        }
+    },
+    "include": [
+        "apps/**/*",
+        "packages/**/*"
+    ]
+}
