@@ -11,7 +11,8 @@
     "build": "tsc --build packages/addition packages/subtraction packages/multiply packages/sum apps/calculator apps/circle-area apps/gross-income",
     "start:calculator": "node apps/calculator/dist/apps/calculator/src/index.js",
     "start:circle-area": "node apps/circle-area/dist/apps/circle-area/src/index.js",
-    "start:gross-income": "node apps/gross-income/dist/apps/gross-income/src/index.js"
+    "start:gross-income": "node apps/gross-income/dist/apps/gross-income/src/index.js",
+    "start:rect-area": "node apps/rect-area/dist/apps/rect-area/src/index.js"
   },
   "keywords": [],
   "author": "",
